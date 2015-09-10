@@ -46,6 +46,7 @@ var rollGenerator = (function(o, f, roll) {
   }
 }(output, formatter, roll));
 
-roll.add('Jean', 'Dupont', new Date(2004, 5, 10));
+roll.add('Jean', 'Dupont', new Date(2004, 5, 10)); // 5=june !
+roll.add('Marc', 'Martin', new Date(20010, 7, 31));
 
 rollGenerator.generate();
