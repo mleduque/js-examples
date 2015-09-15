@@ -1,0 +1,11 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "Node test",
+  "author": "mickael.leduque@serli.com",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mleduque/js-examples"
+  }
+}
