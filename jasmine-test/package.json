@@ -1,0 +1,12 @@
+{
+  "name": "jasmine-test",
+  "version": "1.0.0",
+  "description": "module with jasmine tests",
+  "license": "ISC",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
