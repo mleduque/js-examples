@@ -4,9 +4,9 @@
   "description": "module with jasmine tests",
   "license": "ISC",
   "scripts": {
-    "test": "./node_modules/.bin/jasmine-node spec"
+    "test": "./node_modules/.bin/jasmine"
   },
   "devDependencies": {
-    "jasmine-node": "^1.14.5"
+    "jasmine": "^2.3.2"
   }
 }
