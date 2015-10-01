@@ -1,0 +1,51 @@
+body {
+  background-color: lavender;
+}
+
+.image-container {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+}
+
+.animal-image {
+}
+
+.animal-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.animal-species {
+
+}
+.animal-race {
+
+}
+
+.animal-info {
+  margin-left: 10em;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.animal {
+  margin-bottom: 3em;
+  padding-bottom: 1.5em;
+}
+
+.animal.odd {
+  background-color: mistyrose;
+}
+
+.animal.even{
+  background-color: palegreen;
+}
+
+.delete-button {
+  margin-left: 10em;
+}
