@@ -19,22 +19,27 @@ function refreshInventory() {
   for (var i = 0; i < animals.length; i++) {
     var animal = animals[i];
     var entry = document.createElement('article');
-    var name = document.createElement('span');
+
+    var info = document.createElement('div');
+    info.setAttribute('class', 'animal-info');
+
+    var name = document.createElement('div');
     name.setAttribute('class', 'animal-name');
     name.textContent = animal.name;
-    
-    var species = document.createElement('span');
+
+    var species = document.createElement('div');
     species.setAttribute('class', 'animal-species');
-    species.textContent = animal.species;
-    
+    species.textContent = 'Espèce : ' + animal.species;
+
     var race = document.createElement('span');
     race.setAttribute('class', 'animal-race');
-    race.textContent = animal.race;
-    
+
+    race.textContent = 'Race : ' + animal.race;
     entry.appendChild(name);
-    entry.appendChild(species);
-    entry.appendChild(race);
+    info.appendChild(species);
+    info.appendChild(race);
     inventory.appendChild(entry);
+    inventory.appendChild(info);
   }
 }
 
