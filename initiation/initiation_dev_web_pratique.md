@@ -27,7 +27,7 @@ Ouvrir la page http://example.com.
 
  * code/message d'état
 
- _Mise en garde :Tous les navigateurs n'ont pas le meme comportement pur les rechargements _
+ _Mise en garde :Tous les navigateurs n'ont pas le meme comportement pour les rechargements _
 
 3. Avec firefox, montrer la différence quand on change l'url en https://example.com
 
