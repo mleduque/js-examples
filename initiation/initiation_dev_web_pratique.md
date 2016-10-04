@@ -54,11 +54,11 @@ Plusieurs étapes, même page web.
 
   * D'abord le positionnement (dimensions, marges, padding, display)
 
-    _Noter que des modifications de la structures peuvent être nécessaires !_
+    _Noter que des modifications de la structure peuvent être nécessaires !_
   * Ensuite les attributs de texte et couleurs
 
 3. (JS+DOM) Ajout d'interaction (simple)
-  La liste des pensionnaires n'est plus statisue mais est gérée dans un modèle (en mémoire).
+  La liste des pensionnaires n'est plus statique mais est gérée dans un modèle (en mémoire).
   Ajout des éléments de type formulaire pour saisir des nouveaux animaux.
   Affichage de la liste des animaux en fonction du modèle.
 
